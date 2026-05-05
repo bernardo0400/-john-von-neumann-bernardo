@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John von Neumann</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Von Neumann</h1>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#historia">História</a></li>
+      <li><a href="#contribuicoes">Contribuições</a></li>
+      <li><a href="#timeline">Linha do Tempo</a></li>
+      <li><a href="#curiosidades">Curiosidades</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h2>John von Neumann</h2>
+  <p>O cérebro por trás dos computadores modernos</p>
+  <button onclick="scrollToSection('historia')">Explorar</button>
+</section>
+
+<section id="historia">
+  <h2>História</h2>
+  <p>
+    John von Neumann foi um dos maiores matemáticos do século XX. Ele contribuiu
+    para diversas áreas, incluindo computação, física, economia e engenharia.
+    Seu trabalho influenciou diretamente o funcionamento dos computadores atuais.
+  </p>
+</section>
+
+<section id="contribuicoes">
+  <h2>Contribuições</h2>
+
+  <div class="cards">
+    <div class="card" onclick="mostrarInfo('info1')">
+      <h3>Arquitetura</h3>
+      <p>Clique para saber mais</p>
+    </div>
+
+    <div class="card" onclick="mostrarInfo('info2')">
+      <h3>Teoria dos Jogos</h3>
+      <p>Clique para saber mais</p>
+    </div>
+
+    <div class="card" onclick="mostrarInfo('info3')">
+      <h3>Inteligência Artificial</h3>
+      <p>Clique para saber mais</p>
+    </div>
+  </div>
+
+  <div id="info1" class="info hidden">
+    Base dos computadores modernos: memória + processamento separados.
+  </div>
+
+  <div id="info2" class="info hidden">
+    Criou fundamentos usados em economia e estratégias competitivas.
+  </div>
+
+  <div id="info3" class="info hidden">
+    Influenciou ideias iniciais sobre máquinas inteligentes.
+  </div>
+
+</section>
+
+<section id="timeline">
+  <h2>Linha do Tempo</h2>
+
+  <div class="timeline">
+    <div class="item">1903 - Nascimento</div>
+    <div class="item">1930 - Trabalhos matemáticos</div>
+    <div class="item">1945 - Arquitetura de computadores</div>
+    <div class="item">1957 - Falecimento</div>
+  </div>
+</section>
+
+<section id="curiosidades">
+  <h2>Curiosidades</h2>
+
+  <ul>
+    <li>Memória fotográfica impressionante</li>
+    <li>Falava vários idiomas</li>
+    <li>Conseguia fazer cálculos mentais absurdos</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Feito por Be 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
